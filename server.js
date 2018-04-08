@@ -48,9 +48,9 @@ app.get('/setup', function(req, res) {
 });
 
 // basic route (http://localhost:8080)
-app.get('/', function(req, res) {
-	res.send('');
-});
+//app.get('/', function(req, res) {
+//	res.send('');
+//});
 
 // ---------------------------------------------------------
 // get an instance of the router for api routes
